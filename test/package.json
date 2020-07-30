@@ -1,32 +1,17 @@
 {
-  "name": "nodejs_test",
+  "name": "node_js_test",
   "version": "1.0.0",
-  "description": "Node JS Test",
-  "main": "app.js",
+  "description": "Node.js Test",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/infreljs/Study_NodeJS.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/infreljs/Study_NodeJS/issues"
-  },
-  "homepage": "https://github.com/infreljs/Study_NodeJS#readme",
   "dependencies": {
-    "body-parser": "^1.18.0",
-    "cookie-parser": "^1.4.3",
-    "cors": "^2.8.4",
-    "express": "^4.15.4",
-    "express-error-handler": "^1.1.0",
-    "express-session": "^1.15.5",
-    "fs": "0.0.1-security",
-    "mongodb": "^2.2.31",
-    "multer": "^1.3.0",
-    "pbkdf2-password": "^1.2.1"
-  },
-  "devDependencies": {}
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "multer": "^1.3.0"
+  }
 }
